@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <p>Welcome, [Admin Name]</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="f.html">Dashboard</a></li>
+            <li><a href="#">Users</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="f.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard Overview</h2>
+            <div class="dashboard-item">
+                <h3>Total Users</h3>
+                <p>[Total User Count]</p>
+            </div>
+            <div class="dashboard-item">
+                <h3>Total Products</h3>
+                <p>[Total Product Count]</p>
+            </div>
+            </section>
+
+        <section id="users">
+            <h2>User Management</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </section>
+
+        </main>
+
+    <footer>
+        &copy; Oriental Institute of Science & Technology
+    </footer>
+</body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(image.avif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+        
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;}
+
+             nav{   width:100%;
+                float:left;
+                height: 70px;
+                margin-top: -40PX;
+                padding-top: 0px;
+                
+    }
+
+            ul{
+                float:left;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+             
+            ul li{
+                list-style: none;
+                margin-left: 62px;
+                margin-top: 27px;
+                font-size: 14px;
+            }
+
+            ul li{
+                text-decoration: none;
+                color:rgb(214, 185, 38);
+                font-family:Arial;
+                font-weight: bold;
+                transition: 0.4 s ease-in-out;
+            }
+
+            ul li a:hover{
+                color:rgb(214, 185, 38)
+            }
+footer{
+    padding-top:200px;
+    padding-left: 250px;
+}
+
+
+</style>
+</html>
